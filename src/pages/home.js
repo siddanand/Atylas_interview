@@ -13,25 +13,25 @@ export const Home = (props) => {
     <AppContainer>
       <Contanier>
         {props.value.user ? (
-          <Button
-            type="submit"
-            value="Post"
-            onClick={() => props.value.setUser()}
-          >
-            <Link to="login" style={{ textDecoration: "none", color: "white" }}>
+          <Link to="login" style={{ textDecoration: "none", color: "white" }}>
+            <Button
+              type="submit"
+              value="Post"
+              onClick={() => props.value.setUser()}
+            >
               Logout
-            </Link>
-          </Button>
+            </Button>
+          </Link>
         ) : (
-          <Button
-            type="submit"
-            value="Post"
-            onClick={() => props.value.setUser()}
-          >
-            <Link to="login" style={{ textDecoration: "none", color: "white" }}>
+          <Link to="login" style={{ textDecoration: "none", color: "white" }}>
+            <Button
+              type="submit"
+              value="Post"
+              onClick={() => props.value.setUser()}
+            >
               Login
-            </Link>
-          </Button>
+            </Button>
+          </Link>
         )}
         <H1>Hello {props.value.user ? props.value.user : <span>XYZ</span>}</H1>
         <H2>
