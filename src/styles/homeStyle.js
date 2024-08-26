@@ -6,7 +6,6 @@ export const Contanier = styled.div`
 `;
 
 export const H1 = styled.h1`
-  font-family: Inter;
   font-size: 28px;
   font-weight: 500;
   line-height: 33.89px;
@@ -15,7 +14,6 @@ export const H1 = styled.h1`
 `;
 
 export const H2 = styled.h2`
-  font-family: Inter;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -24,7 +22,6 @@ export const H2 = styled.h2`
   margin-bottom: 30px;
 `;
 export const Button = styled.button`
-  font-family: Inter;
   text-align: center;
   font-size: 16px;
   font-weight: 500;

@@ -12,7 +12,6 @@ export const Container = styled.div`
 `;
 
 export const H1 = styled.h1`
-  font-family: Inter;
   font-size: 18px;
   font-weight: 500;
   line-height: 21.78px;
@@ -22,7 +21,6 @@ export const H1 = styled.h1`
 export const TextArea = styled.input`
   padding: 20px 10px 20px 10px;
   margin-left: 10px;
-  font-family: Inter;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
@@ -55,7 +53,6 @@ export const EmojiContainer = styled.div`
   border-radius: 50%;
 `;
 export const Button = styled.input`
-  font-family: Inter;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -88,7 +85,6 @@ export const IconContainer = styled.div`
   justify-content: space-between;
 `;
 export const H3 = styled.h3`
-  font-family: Inter;
   font-size: 16px;
   font-weight: 500;
   line-height: 19.36px;
@@ -96,7 +92,6 @@ export const H3 = styled.h3`
   margin: 12px 0 10px 20px;
   color: #c5c7ca;
   p {
-    font-family: Inter;
     font-size: 14px;
     font-weight: 500;
     line-height: 0px;
@@ -108,7 +103,6 @@ export const CommentContainer = styled.div`
   margin-top: 15px;
   p {
     margin: -1px -1px -1px 10px;
-    font-family: Inter;
     font-size: 14px;
     font-weight: 500;
     line-height: 17px;
@@ -122,7 +116,6 @@ export const Content = styled.p`
   background: transparent;
   width: 100%;
   color: #7f8084;
-  font-family: Inter;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;

@@ -16,7 +16,6 @@ export const Container = styled.div`
   color: #ffffff;
 `;
 export const H2 = styled.h2`
-  font-family: Inter;
   font-size: 14px;
   font-weight: 500;
   line-height: 16.94px;
@@ -26,7 +25,6 @@ export const H2 = styled.h2`
 `;
 
 export const H1 = styled.h1`
-  font-family: Inter;
   font-size: 18px;
   font-weight: 600;
   line-height: 21.78px;
@@ -35,7 +33,6 @@ export const H1 = styled.h1`
 `;
 
 export const Label = styled.label`
-  font-family: Inter;
   font-size: 14px;
   font-weight: 500;
   line-height: 36.94px;
@@ -63,7 +60,6 @@ export const InputField = styled.input`
 `;
 
 export const PrimaryButton = styled.input`
-  font-family: Inter;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -80,7 +76,6 @@ export const PrimaryButton = styled.input`
   }
 `;
 export const HintText = styled.p`
-  font-family: Inter;
   font-size: 14px;
   font-weight: 500;
   line-height: 16.94px;
